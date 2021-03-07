@@ -1,0 +1,194 @@
+@charset "UTF-8";
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 24px;
+}
+
+em {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+pre {
+  text-align: left;
+  background-color: lightblue;
+}
+
+.cv-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.cv-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000;
+}
+.cv-header__photo {
+  width: 30%;
+  height: auto;
+  margin-right: 50px;
+}
+.cv-header__heading {
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 9px;
+  padding: 0;
+  font-size: 36px;
+  font-family: inherit;
+  line-height: 48px;
+  border-bottom: 2px solid #000;
+}
+
+.cv-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #000;
+}
+.cv-section:last-child {
+  border: 0;
+}
+.cv-section--skills {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cv-section__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: inherit;
+  line-height: 36px;
+}
+.cv-section__heading--h3 {
+  font-size: 18px;
+  line-height: 24px;
+}
+.cv-section__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.cv-section__list--disc {
+  position: relative;
+  margin-left: 1.2rem;
+  padding-left: 0.5rem;
+}
+.cv-section__list--disc li::before {
+  position: absolute;
+  left: -1.2rem;
+  content: "◉";
+}
+.cv-section__list--row li {
+  display: inline;
+}
+.cv-section__list--small {
+  font-weight: bold;
+  font-size: 14px;
+  list-style-type: disc;
+}
+.cv-section__list--small li {
+  position: relative;
+  margin-right: 5px;
+  padding-left: 0.6rem;
+}
+.cv-section__list--small li::before {
+  position: absolute;
+  left: 0;
+  content: "⚬";
+}
+.cv-section__item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.cv-section__item--tel {
+  padding-left: 1.5rem;
+  background: url("../img/contactsAbout.png") no-repeat -3px 4px;
+  content: "";
+}
+.cv-section__item--mailto {
+  padding-left: 1.5rem;
+  background: url("../img/contactsAbout.png") no-repeat 0px -37px;
+}
+.cv-section__item--skype {
+  padding-left: 1.5rem;
+  background: url("../img/contactsAbout.png") no-repeat 0px -76px;
+}
+.cv-section__item--linked {
+  padding-left: 1.5rem;
+  background: url("../img/linkedin.svg") no-repeat left;
+}
+.cv-section__item--github {
+  padding-left: 1.5rem;
+  background: url("../img/github.svg") no-repeat left;
+}
+.cv-section__item--tel:hover {
+  background: url("../img/contactsAbout.png") no-repeat -3px -117px;
+}
+.cv-section__item--mailto:hover {
+  background: url("../img/contactsAbout.png") no-repeat 0px -158px;
+}
+.cv-section__item--skype:hover {
+  background: url("../img/contactsAbout.png") no-repeat 0px -197px;
+}
+.cv-section__item--linked:hover {
+  background: url("../img/linkedin.svg") no-repeat left;
+  filter: invert(26%) sepia(91%) saturate(1425%) hue-rotate(201deg) brightness(94%) contrast(94%);
+}
+.cv-section__item--github:hover {
+  background: url("../img/github.svg") no-repeat left;
+  filter: invert(26%) sepia(91%) saturate(1425%) hue-rotate(201deg) brightness(94%) contrast(94%);
+}
+.cv-section__link {
+  color: blue;
+  text-decoration: none;
+}
+.cv-section__link:active {
+  color: lightblue;
+}
+.cv-section__link:hover {
+  color: darkblue;
+  transition: color 0.4s;
+}
+.cv-section__link:visited {
+  color: #4040a7;
+}
+.cv-section__paragraph {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: justify;
+}
+.cv-section__paragraph--compressed {
+  margin-bottom: 0;
+}
+
+.content {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.content--columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

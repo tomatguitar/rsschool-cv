@@ -1,4 +1,4 @@
-# Dmytry Zhyltsov
+# Dmytro Zhyltsov
 
 ## Contact Info
 * **Email:** dmitry.zh100@gmail.com
@@ -48,14 +48,18 @@ function swapHeadAndTail(arr) {
 
 ## Experience 
 
-Desing Engineer <br/>
-State regional design and survey institute "Zaporizhdiprovodgosp"<br/>
-_Oktober _2016 - September 2019_
+**Desing Engineer**
+Freelance
+_Jan 2020 - nowadays_
+**Desing Engineer**
+State regional design and survey institute "Zaporizhdiprovodgosp"
+_Okt 2016 - Sept 2019_
 
 ## Education
 
-Master Degree in Building and Civil Engineering (Urban Engineering and Services)<br/>
-Zaporizhzhia State Engineering Academy 2013-2019
+**Master Degree** in Building and Civil Engineering (Urban Engineering and Services)
+Zaporizhzhia State Engineering Academy 
+_2013-2019_
 
 ## English
 

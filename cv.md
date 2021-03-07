@@ -22,7 +22,29 @@ future.
 * Git, Github
 * npm , yarn
 
+## Portfolio
 
+Please check my [Github profile](https://github.com/tomatguitar)
+
+## Code Examples
+
+```sh
+function getPasswordValidator(minLength) {
+  return new RegExp(`^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{${minLength},}$`);
+}
+```
+```sh
+function swapHeadAndTail(arr) {
+  const halfLen = arr.length / 2;
+  const head = arr.slice(Math.ceil(halfLen));
+  const tail = arr.slice(0, Math.floor(halfLen));
+  if (arr.length % 2) {
+    const body = arr[Math.floor(halfLen)];
+    return [...head, body, ...tail];
+  }
+  return [...head, ...tail];
+}
+```
 
 
 

@@ -49,16 +49,16 @@ function swapHeadAndTail(arr) {
 ## Experience 
 
 **Desing Engineer**
-Freelance
-_Jan 2020 - nowadays_
-**Desing Engineer**
-State regional design and survey institute "Zaporizhdiprovodgosp"
+Freelance<br>
+_Jan 2020 - nowadays_<br>
+**Desing Engineer**<br>
+State regional design and survey institute "Zaporizhdiprovodgosp"<br>
 _Okt 2016 - Sept 2019_
 
 ## Education
 
-**Master Degree** in Building and Civil Engineering (Urban Engineering and Services)
-Zaporizhzhia State Engineering Academy 
+**Master Degree** in Building and Civil Engineering (Urban Engineering and Services)<br>
+Zaporizhzhia State Engineering Academy<br>
 _2013-2019_
 
 ## English
